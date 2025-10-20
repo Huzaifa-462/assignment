@@ -1,65 +1,96 @@
 Git commands:
 #to create new directory:
 mkdir directory
+
 #to remove directory:
 rmdir directory
+
 #to move back in previous directory:
 cd ..
+
 #to go in particular directory:
 cd directoryname
+
 #to create new file: 
 touch filename.extension
+
 #to remove file:
 rm filename.extension
+
 #to know about git version:
 git -v
+
 #to open vi editor:
 vi filename.extension
+
 #to know about current path:
 pwd 
+
 #to show list of file or directory :
 ls
+
 # to initialize repositrory:
 git init
+
 #to check the diffrence in the untracked file:
 git diff filename.extension
+
 #to add file in stage state:
 git add filename.extension
+
 #to add more than on file in stage state :
 git add .
+
 #to check the diffrence in the staged file:
 git diff --staged filename.extension
+
 #to restore previous file version:
 git restore filename.txt
+
 #to restore file in stage state:
 git restore --staged filename.extension
+
 #to commit file:
 git commit -m "" 
+
 #to check commit history:
 git log
+
 #to check commit history in one line:
 git log -oneline
+
 #to move on previous commit:
 git retrive head   --->here commit history will be maintained
+
 #to move on particular commit:
 git reset commitid
+
 #to check the diffrence between two commit:
 git diff commitID 1..commitID 2
+
 #to save useful work 
 git stash
+
 #to retrive file from stash:
 git stash pop
+
 #to check all stash file:
 git stash show
+
 #to check no. of stash:
 git stash list
+
 #to add remote repositrory on git bash:
 git remote add origin url
+
 # to create branch: 
 git branch -M  branchname
+
 #to push a file on remote repo:
 git push origin branchname
+
 #to remove remote repositrory from local:
 git remote remove origin
+
 #to get exact copy of others repositrory:
 git clone url           ----> you require access
