@@ -1,3 +1,4 @@
+gits all commands are given below.
 Git commands:
 #to create new directory:
 mkdir directory
